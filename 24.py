@@ -1,0 +1,1 @@
+f=lambda l:[x for i,x in enumerate(l) if i>1 and all(i%1==0 for i in range(2,i))==False and x%2==1 and x>sum(l)/len(l)]

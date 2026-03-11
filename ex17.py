@@ -1,0 +1,1 @@
+f=lambda l:[x**2 for x in l if (x%3==0 or x%5==0) and x%15!=0 and len(str(abs(x)))%2==1]

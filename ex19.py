@@ -1,0 +1,1 @@
+f=lambda a,b:[x for x,y in zip(a,b) if x==y and x%2==0]

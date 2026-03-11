@@ -1,0 +1,1 @@
+f=lambda l:[x.upper() for x in l if x.isalpha() and len(x)>4 and len(set(x))==len(x)]

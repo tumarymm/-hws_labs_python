@@ -1,0 +1,1 @@
+i = lambda a: {b: sorted([c for c in d if c % 2 == 1]) for b, d in a.items() if any(c % 2 == 1 for c in d)}

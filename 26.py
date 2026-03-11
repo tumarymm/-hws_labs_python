@@ -1,0 +1,1 @@
+f=lambda l:[sum(x)/len(x) for x in l if len(x)>=3 and sum(x)%2==0]

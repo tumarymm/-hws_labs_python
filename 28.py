@@ -1,0 +1,1 @@
+f=lambda l:sorted(l,key=lambda x:(-len(x),x))[:5]
